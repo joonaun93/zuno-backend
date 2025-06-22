@@ -71,9 +71,9 @@ jobs:
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_AF9D14F7636D44A58911640E2F2B565B }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_225DA617746C4E7CAAEA9FC5C43B2A40 }}
 
-      - name: "Deploy to Azure Web App"
-        uses: azure/webapps-deploy@v3
-        id: deploy-to-webapp
-        with:
-          app-name: "zuno-django-api"
-          slot-name: ""
+      # - name: "Deploy to Azure Web App"
+      #   uses: azure/webapps-deploy@v3
+      #   id: deploy-to-webapp
+      #   with:
+      #     app-name: "zuno-django-api"
+      #     slot-name: ""
