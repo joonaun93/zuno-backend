@@ -3,3 +3,4 @@ djangorestframework
 gunicorn 
 django-extensions>=4.1       
 django-cors-headers>=4.0
+python-dotenv>=1.0
