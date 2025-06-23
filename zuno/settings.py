@@ -89,4 +89,4 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ALLOWED_ORIGINS = ["https://nuxt-app-chi-black.vercel.app"]
+CORS_ALLOWED_ORIGINS = ["https://nuxt-app-chi-black.vercel.app", "http://localhost:3000","http://localhost:3001"]
