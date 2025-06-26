@@ -23,7 +23,9 @@ class EmissionsView(APIView):
             })
 
 
-        return Response({ "total_tCO2e": 12450, "projects": 37, "data_quality_pct": 96, "data": data })
+
+
+        return Response({ "total_tCO2e": 12450, "projects": 37, "data_quality_pct": 96, "data": data.reverse() })
 
 
 
