@@ -22,10 +22,9 @@ class EmissionsView(APIView):
                 "s3": random.randint(4500, 5500),
             })
 
+        data.reverse()
 
-
-
-        return Response({ "total_tCO2e": 12450, "projects": 37, "data_quality_pct": 96, "data": data.reverse() })
+        return Response({ "total_tCO2e": 12450, "projects": 37, "data_quality_pct": 96, "data": data })
 
 
 
